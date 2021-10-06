@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  border-radius: 25px;
+  margin: 5rem;
+}
+
+.card h1 {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.content-des p {
+  color: gray;
+  margin-bottom: 0.3rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.plan .name {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+.plan .price {
+  margin-left: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.plan a {
+  margin-left: 8rem;
+  color: hsl(228, 45%, 44%);
+  font-weight: 700;
+}
+
+.button button {
+  display: inline-block;
+  border: none;
+  padding: 15px 32px;
+  width: 100%;
+  border-radius: 10px;
+  color: gray;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.button .btn1 {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0px 10px 25px 0px hsl(224, 23%, 55%, 50%);
+  cursor: pointer;
+
+}
+
+.button .btn2 {
+  background-color: hsl(225, 100%, 100%, 0%);
+  cursor: pointer;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 960px) {
+  .card {
+    width: 375px;
+    height: auto;
+  }
+
+  .plan a {
+    margin-left: 4rem;
+  }
+}
